@@ -363,7 +363,39 @@ int main() {
 
 ==================================================================================================================================================================
 
+* Review
+--------
+Congratulations! You have officially done it. 🎉🎉🎉
 
+In this lesson, you have learned:
+
+	. References
+		. Pass-by-reference
+		. Pass-by-reference with const
+
+	. Memory addresses and how to access them
+
+	. Pointers
+		. Dereferencing a pointer
+		. nullptr
+
+		// Reference
+		int &reference = original;
+ 
+		// Pointer
+		int* pointer = &original;
+
+letter.cpp
+----------
+#include <iostream>
+
+int main() 
+{
+  
+  std::cout << "Dear Self,\n";
+  std::cout << "I'll be the best Software Developer that I can!\n";
+  std::cout << "Andres R. Bucheli - 28/07/2023";
+}
 
 
 
